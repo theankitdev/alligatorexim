@@ -90,7 +90,7 @@ const Home = () => {
             {stats.map((item, index) => (
               <div
                 key={index}
-                className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition"
+                className="bg-white p-8 px-6 rounded-lg shadow-sm hover:shadow-md transition"
               >
 
                 <div className="text-indigo-600 text-3xl mb-4 flex justify-center">
