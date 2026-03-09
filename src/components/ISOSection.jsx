@@ -35,7 +35,7 @@ const ISOSection = () => {
             </p>
 
             <p>
-              Our manufacturing facility in Taian, Shandong Province, China,
+              Our manufacturing facility in India,
               includes advanced CAD/CAM systems and modern production lines.
               With 600+ skilled employees and cutting-edge equipment, we ensure
               high precision and consistent quality.

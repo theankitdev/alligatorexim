@@ -15,7 +15,7 @@ const Footer = () => {
 
           <p className="text-gray-600 leading-relaxed text-sm">
             Alligatorexim Garment is the leading custom functional clothing manufacturer
-            and supplier from China. We have strong on demand manufacturing
+            and supplier from India. We have strong on demand manufacturing
             abilities with advanced equipment and craftsmanship.
           </p>
         </div>
@@ -62,7 +62,20 @@ const Footer = () => {
             <li>Shandong Province</li>
             <li>Phone: +86 0538-6292016</li>
             <li>Mobile: +86 186 5388 8531</li>
-            <li>Email: sales@alligatorexim.com</li>
+            <li className="flex gap-2">
+              <span>Email:</span>
+              <div className="flex flex-col">
+                <a href="mailto:info@alligatorexim.com" className="hover:text-blue-600">
+                  info@alligatorexim.com
+                </a>
+                <a href="mailto:commercial@alligatorexim.com" className="hover:text-blue-600">
+                  commercial@alligatorexim.com
+                </a>
+                <a href="mailto:admin@alligatorexim.com" className="hover:text-blue-600">
+                  admin@alligatorexim.com
+                </a>
+              </div>
+            </li>
           </ul>
         </div>
 
