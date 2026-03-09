@@ -4,23 +4,23 @@ import { FaCogs, FaGem, FaUserTie, FaShippingFast } from "react-icons/fa";
 const features = [
   {
     icon: <FaCogs />,
-    title: "OEM / ODM Service",
-    desc: "Professional OEM/ODM functional clothing manufacturing with over 17+ years of industry experience.",
+    title: "OEM / ODM Manufacturing",
+    desc: "Professional garment manufacturing services with custom OEM and private label production for global apparel brands.",
   },
   {
     icon: <FaGem />,
-    title: "Premium Quality",
-    desc: "Advanced manufacturing equipment and lean production processes ensure consistent high quality.",
+    title: "Premium Quality Standards",
+    desc: "Modern production facilities and strict quality control ensure high quality garments that meet international standards.",
   },
   {
     icon: <FaUserTie />,
-    title: "Excellent Service",
-    desc: "Dedicated experts providing consultation, custom design, and full quality control.",
+    title: "Professional Export Team",
+    desc: "Experienced team providing product development, sourcing support and complete export coordination for international clients.",
   },
   {
     icon: <FaShippingFast />,
-    title: "Fast Delivery",
-    desc: "Efficient supply chain and global logistics delivering products to over 100+ countries.",
+    title: "Global Logistics Network",
+    desc: "Reliable shipping and logistics partnerships delivering garments to markets across the Gulf, USA, Europe, Asia and Africa.",
   },
 ];
 
@@ -34,13 +34,13 @@ const WhyChoose = () => {
         <div className="text-center mb-14">
 
           <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-            Why Choose Alligatorexim Garment
+            Why Choose Alligator Exim
           </h2>
 
           <p className="text-gray-500 max-w-3xl mx-auto mt-4">
-            We provide high-quality functional clothing manufacturing solutions
-            for global brands including hunting, heated, outdoor, fishing,
-            motorcycle and ski apparel.
+            Alligator Exim combines garment manufacturing expertise with a
+            strong global export network to supply high-quality apparel and
+            textile products to international markets.
           </p>
 
         </div>

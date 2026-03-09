@@ -10,13 +10,14 @@ const ISOSection = () => {
         <div className="text-center mb-14">
 
           <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-            ISO 9001 Approved Functional Clothing Manufacturer
+            Garment Manufacturing & Global Export Expertise
           </h2>
 
           <p className="max-w-3xl mx-auto text-gray-500 mt-4">
-            Alligatorexim Garment provides OEM/ODM manufacturing services for global
-            functional clothing brands including heated clothing, hunting,
-            motorcycle, ski, and outdoor apparel.
+            Alligator Exim is a trusted garment manufacturer and exporter
+            providing OEM/ODM production services for global apparel brands.
+            We manufacture and export workwear, sportswear, kidswear,
+            accessories and home textiles to international markets.
           </p>
 
         </div>
@@ -28,36 +29,36 @@ const ISOSection = () => {
           <div className="space-y-6 text-gray-600 leading-relaxed">
 
             <p>
-              As an ISO 9001:2015 certified functional clothing manufacturer,
-              Taian Alligatorexim Garment strictly follows international quality
-              standards from product design and fabric selection to production
-              and after-sales service.
+              Alligator Exim works with advanced production facilities and
+              experienced teams to manufacture high-quality garments that meet
+              international standards. Our production process covers product
+              design, fabric sourcing, manufacturing, quality control and
+              global export logistics.
             </p>
 
             <p>
-              Our manufacturing facility in India,
-              includes advanced CAD/CAM systems and modern production lines.
-              With 600+ skilled employees and cutting-edge equipment, we ensure
-              high precision and consistent quality.
+              With strong partnerships with global shipping lines and logistics
+              providers, we ensure reliable supply chains and smooth delivery
+              for international buyers across multiple regions.
             </p>
 
             <p>
-              We specialize in producing hunting clothing, ski clothing,
-              outdoor clothing, fishing clothing, heated clothing, and
-              motorcycle apparel for global brands.
+              Our products are exported worldwide including the Gulf, USA,
+              Europe, Asia and West Africa, supporting global brands and
+              wholesalers with dependable garment manufacturing solutions.
             </p>
 
             {/* Feature Highlights */}
             <div className="grid grid-cols-2 gap-6 pt-4">
 
               <div className="bg-white p-4 rounded-lg shadow-sm text-center">
-                <h3 className="text-xl font-semibold text-indigo-600">600+</h3>
-                <p className="text-sm text-gray-500">Skilled Workers</p>
+                <h3 className="text-xl font-semibold text-indigo-600">17+</h3>
+                <p className="text-sm text-gray-500">Years Experience</p>
               </div>
 
               <div className="bg-white p-4 rounded-lg shadow-sm text-center">
-                <h3 className="text-xl font-semibold text-indigo-600">240,000㎡</h3>
-                <p className="text-sm text-gray-500">Factory Area</p>
+                <h3 className="text-xl font-semibold text-indigo-600">100+</h3>
+                <p className="text-sm text-gray-500">Global Markets</p>
               </div>
 
             </div>
@@ -70,7 +71,7 @@ const ISOSection = () => {
             <iframe
               className="w-full h-[350px]"
               src="https://www.youtube.com/embed/VcMqPg_Sf7I"
-              title="Factory Manufacturing"
+              title="Garment Manufacturing"
               allowFullScreen
             ></iframe>
 

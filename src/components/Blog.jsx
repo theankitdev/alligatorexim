@@ -2,24 +2,24 @@ import React from "react";
 
 const blogs = [
   {
-    title: "Top 10 Global Motor Jacket Brands",
-    desc: "Discover the best motorcycle jacket brands worldwide and learn how to choose the right gear for safety and comfort.",
-    image: "https://images.unsplash.com/photo-1609630875171-b1321377ee65",
-    category: "Motorcycle",
+    title: "How to Choose the Right Garment Manufacturer for Your Brand",
+    desc: "Learn the key factors to consider when selecting a garment manufacturing partner for quality production, scalability and reliable supply.",
+    image: "https://images.unsplash.com/photo-1520975916090-3105956dac38?q=80&w=2070&auto=format&fit=crop",
+    category: "Manufacturing",
     date: "May 10, 2024",
   },
   {
-    title: "Top 10 Global Fish Clothing Company List",
-    desc: "Explore the leading fishing clothing manufacturers providing durable, breathable, and waterproof fishing gear.",
-    image: "https://images.unsplash.com/photo-1518837695005-2083093ee35b",
-    category: "Fishing",
+    title: "Global Garment Export Trends in 2024",
+    desc: "Explore the latest trends in international garment trade including growing demand for workwear, sportswear and sustainable clothing.",
+    image: "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=2070&auto=format&fit=crop",
+    category: "Export",
     date: "May 08, 2024",
   },
   {
-    title: "Top 10 Best Dirt Bike Clothing Brands Worldwide",
-    desc: "A complete guide to the best dirt bike clothing brands offering protection, durability, and performance.",
-    image: "https://images.unsplash.com/photo-1518655048521-f130df041f66",
-    category: "Motorcycle",
+    title: "Benefits of OEM & Private Label Garment Manufacturing",
+    desc: "Discover how OEM and private label garment manufacturing can help brands scale production while maintaining quality and cost efficiency.",
+    image: "https://images.unsplash.com/photo-1523381294911-8d3cead13475?q=80&w=2070&auto=format&fit=crop",
+    category: "OEM / ODM",
     date: "May 05, 2024",
   },
 ];
@@ -34,12 +34,12 @@ const BlogSection = () => {
         <div className="text-center mb-14">
 
           <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-            Latest Blog Posts
+            Latest Industry Insights
           </h2>
 
           <p className="text-gray-500 mt-4 max-w-3xl mx-auto">
-            Explore our latest insights, trends and expert guides in the
-            functional clothing industry to help grow your apparel business.
+            Stay updated with the latest insights, trends and expert knowledge
+            from the global garment manufacturing and export industry.
           </p>
 
         </div>
@@ -58,7 +58,7 @@ const BlogSection = () => {
 
                 <img
                   src={blog.image}
-                  alt=""
+                  alt={blog.title}
                   className="w-full h-full object-cover hover:scale-110 transition duration-500"
                 />
 

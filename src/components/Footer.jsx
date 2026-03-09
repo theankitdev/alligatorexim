@@ -3,20 +3,21 @@ import { FaFacebookF, FaPinterestP, FaLinkedinIn, FaYoutube, FaWhatsapp } from "
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 border-t-4 border-indigo-700 ">
+    <footer className="bg-gray-100 border-t-4 border-indigo-700">
 
-      <div className="max-w-7xl mx-auto px-6 py-12 grid md:grid-cols-4 gap-10">
+      <div className="max-w-7xl mx-auto px-6 py-12 grid lg:grid-cols-5 gap-10">
 
         {/* Logo + About */}
         <div>
           <div className="text-3xl font-bold text-indigo-700 mb-4">
-            Alligatorexim
+            Alligator Exim
           </div>
 
           <p className="text-gray-600 leading-relaxed text-sm">
-            Alligatorexim Garment is the leading custom functional clothing manufacturer
-            and supplier from India. We have strong on demand manufacturing
-            abilities with advanced equipment and craftsmanship.
+            Alligator Exim is a global export company specializing in garments,
+            workwear, sportswear, kidswear and accessories. We export cargo
+            worldwide across the Gulf, USA, Europe, Asia and West Africa with
+            reliable logistics and strong international partnerships.
           </p>
         </div>
 
@@ -28,54 +29,89 @@ const Footer = () => {
 
           <ul className="space-y-2 text-gray-600">
             <li className="hover:text-indigo-700 cursor-pointer">About</li>
-            <li className="hover:text-indigo-700 cursor-pointer">Certificates</li>
-            <li className="hover:text-indigo-700 cursor-pointer">Blog</li>
+            <li className="hover:text-indigo-700 cursor-pointer">Products</li>
+            <li className="hover:text-indigo-700 cursor-pointer">Services</li>
             <li className="hover:text-indigo-700 cursor-pointer">Contact</li>
           </ul>
         </div>
 
-        {/* Products */}
+        {/* Shipping Lines */}
         <div>
           <h3 className="text-indigo-700 font-semibold text-lg mb-4">
-            Products
+            Shipping Lines
           </h3>
 
-          <ul className="space-y-2 text-gray-600">
-            <li className="hover:text-indigo-700">Hunting Clothing</li>
-            <li className="hover:text-indigo-700">Ski Clothing</li>
-            <li className="hover:text-indigo-700">Outdoor Clothing</li>
-            <li className="hover:text-indigo-700">Fishing Clothing</li>
-            <li className="hover:text-indigo-700">Heated Clothing</li>
-            <li className="hover:text-indigo-700">Motorcycle Clothing</li>
+          <ul className="space-y-2 text-gray-600 text-sm">
+            <li>CMA CGM</li>
+            <li>HAPAG-LLOYD</li>
+            <li>COSCO</li>
+            <li>CUL LINE</li>
+            <li>MSC</li>
+            <li>MAERSK</li>
+            <li>Ocean Network Express</li>
+            <li>Sea Lead</li>
           </ul>
         </div>
 
         {/* Contact */}
         <div>
           <h3 className="text-indigo-700 font-semibold text-lg mb-4">
-            Get In Touch
+            Contact
           </h3>
 
           <ul className="space-y-2 text-gray-600 text-sm">
-            <li>Office: No. 59 Mingtang Road</li>
-            <li>Taishan District, Taian City</li>
-            <li>Shandong Province</li>
-            <li>Phone: +86 0538-6292016</li>
-            <li>Mobile: +86 186 5388 8531</li>
-            <li className="flex gap-2">
-              <span>Email:</span>
-              <div className="flex flex-col">
-                <a href="mailto:info@alligatorexim.com" className="hover:text-blue-600">
-                  info@alligatorexim.com
-                </a>
-                <a href="mailto:commercial@alligatorexim.com" className="hover:text-blue-600">
-                  commercial@alligatorexim.com
-                </a>
-                <a href="mailto:admin@alligatorexim.com" className="hover:text-blue-600">
-                  admin@alligatorexim.com
-                </a>
-              </div>
+
+            <li>
+              Germany: +49 176 47534233
             </li>
+
+            <li>
+              USA: (718) 977-0453
+            </li>
+
+            <li className="flex gap-1">
+              <span>Email:</span>
+                <a href="mailto:contact@alligatorpro.com" className="hover:text-indigo-700 ">
+                  contact@alligatorpro.com
+                </a>
+            </li>
+
+          </ul>
+        </div>
+
+        {/* Offices */}
+        <div>
+          <h3 className="text-indigo-700 font-semibold text-lg mb-4">
+            Offices
+          </h3>
+
+          <ul className="space-y-3 text-gray-600 text-sm">
+
+            <li>
+              <strong>India:</strong><br />
+              Office No.109, Sawant Arcades,<br />
+              M Road, Ambernath East,<br />
+              Pin Code: 421501
+            </li>
+
+            <li>
+              <strong>Dubai:</strong><br />
+              Office No.312, Al Fajer Complex,<br />
+              Umm Hurair Road, Oud Metha, Dubai
+            </li>
+
+            <li>
+              <strong>USA:</strong><br />
+              1135 Jackson Avenue,<br />
+              Franklin Square, NY 11010
+            </li>
+
+            <li>
+              <strong>Germany:</strong><br />
+              Holsteiner Ufer 46,<br />
+              10557 Berlin, Germany
+            </li>
+
           </ul>
         </div>
 
@@ -86,7 +122,7 @@ const Footer = () => {
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-gray-600 text-sm">
-            Alligatorexim Garment ©2026 All Rights Reserved.
+            Alligator Exim ©2026 All Rights Reserved.
           </p>
 
           {/* Social Icons */}

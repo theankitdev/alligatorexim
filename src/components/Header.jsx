@@ -14,7 +14,7 @@ const Header = () => {
 
         {/* Logo */}
         <div className="text-[20px] text-white font-bold">
-          Alligatorexim
+          Alligator Exim
         </div>
 
         {/* Desktop Menu */}

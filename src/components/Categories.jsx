@@ -2,22 +2,40 @@ import React from "react";
 
 const categories = [
   {
-    title: "Hunting Clothing",
+    title: "Workwear & Uniforms",
     image:
-      "https://images.unsplash.com/photo-1603252109360-909baaf261c7",
-    desc: "Durable hunting jackets, pants, and vests designed for camouflage, weather protection, and optimal field performance.",
+      "https://images.unsplash.com/photo-1552581234-26160f608093?q=80&w=2070&auto=format&fit=crop",
+    desc: "Corporate uniforms, industrial workwear and office uniforms manufactured for durability, comfort and professional appearance.",
   },
   {
-    title: "Ski Clothing",
+    title: "Sportswear & Athleisure",
     image:
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772",
-    desc: "High-performance ski jackets and apparel engineered for warmth, waterproofing, and flexibility in extreme winter conditions.",
+      "https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=2070&auto=format&fit=crop",
+    desc: "High-performance sportswear and athleisure garments designed with breathable fabrics and modern activewear styling.",
   },
   {
-    title: "Outdoor Clothing",
+    title: "Kidswear",
     image:
-      "https://images.unsplash.com/photo-1520975916090-3105956dac38",
-    desc: "Outdoor jackets and gear designed with breathable fabrics, durability, and mobility for hiking and adventure activities.",
+      "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=2070&auto=format&fit=crop",
+    desc: "Comfortable and stylish children’s clothing with strong global demand due to rapid growth cycles.",
+  },
+  {
+    title: "Accessories",
+    image:
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?q=80&w=2070&auto=format&fit=crop",
+    desc: "Fashion accessories including scarves, caps, belts and bags that complement apparel collections.",
+  },
+  {
+    title: "Home Textiles",
+    image:
+      "https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=2070&auto=format&fit=crop",
+    desc: "Bedsheets, curtains and cushion covers manufactured with quality fabrics for international markets.",
+  },
+  {
+    title: "Eco-Friendly Apparel",
+    image:
+      "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=2070&auto=format&fit=crop",
+    desc: "Sustainable garments made using organic cotton, bamboo fabric and recycled polyester.",
   },
 ];
 
@@ -31,13 +49,13 @@ const Categories = () => {
         <div className="text-center mb-14">
 
           <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-            Custom Functional Clothes By Categories
+            Garment Product Categories
           </h2>
 
           <p className="text-gray-500 max-w-3xl mx-auto mt-4">
-            Alligatorexim Garment specializes in OEM/ODM functional clothing
-            manufacturing including hunting, ski, outdoor, fishing,
-            heated and motorcycle apparel for global brands.
+            Alligator Exim manufactures and exports a wide range of garments
+            and textile products including workwear, sportswear, kidswear,
+            accessories and home textiles to global markets.
           </p>
 
         </div>

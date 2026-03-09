@@ -10,12 +10,13 @@ const QuoteSection = () => {
         <div className="text-center mb-14">
 
           <h2 className="text-3xl md:text-4xl font-semibold text-indigo-700">
-            Get An Online Quote Now
+            Request A Quote
           </h2>
 
           <p className="text-gray-500 mt-4 max-w-3xl mx-auto">
-            Partner with a trusted functional clothing manufacturer serving
-            global brands with high-quality OEM / ODM solutions.
+            Partner with Alligator Exim, a trusted garment manufacturer and
+            exporter supplying high-quality apparel and textile products to
+            global markets.
           </p>
 
         </div>
@@ -28,7 +29,7 @@ const QuoteSection = () => {
 
             <img
               src="https://images.unsplash.com/photo-1521791136064-7986c2920216?q=80&w=1200&auto=format&fit=crop"
-              alt="factory"
+              alt="garment manufacturing"
               className="w-full h-full object-cover"
             />
 
@@ -38,16 +39,17 @@ const QuoteSection = () => {
           <div>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Alligatorexim Garment is a leading functional clothing manufacturer
-              trusted by 200+ apparel brands worldwide. With over 17 years of
-              experience, we specialize in producing high-quality hunting,
-              heated, ski, outdoor and motorcycle clothing.
+              Alligator Exim provides professional garment manufacturing and
+              export services for international brands, wholesalers and
+              retailers. We specialize in producing workwear, sportswear,
+              kidswear, accessories and home textile products.
             </p>
 
             <p className="text-gray-600 mb-6 leading-relaxed">
-              Our professional team and advanced production lines ensure the
-              best quality, competitive pricing and reliable delivery for your
-              brand.
+              With over 17 years of industry experience and a strong logistics
+              network, we deliver reliable production, competitive pricing and
+              efficient global shipping to markets including the Gulf, USA,
+              Europe, Asia and West Africa.
             </p>
 
             {/* Highlights */}
@@ -55,10 +57,10 @@ const QuoteSection = () => {
 
               <div className="bg-white p-4 rounded-lg shadow-sm text-center">
                 <h3 className="text-xl font-semibold text-indigo-600">
-                  200+
+                  100+
                 </h3>
                 <p className="text-sm text-gray-500">
-                  Global Clients
+                  Global Markets
                 </p>
               </div>
 
