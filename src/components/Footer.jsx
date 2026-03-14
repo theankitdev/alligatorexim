@@ -62,6 +62,9 @@ const Footer = () => {
           <ul className="space-y-2 text-gray-600 text-sm">
 
             <li>
+              India: +91 8454801839
+            </li>
+            <li>
               Germany: +49 176 47534233
             </li>
 
