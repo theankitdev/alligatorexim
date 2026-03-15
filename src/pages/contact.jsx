@@ -54,7 +54,7 @@ const Contact = () => {
           {/* Image */}
           <div>
             <img
-              src="https://images.unsplash.com/photo-1521791136064-7986c2920216?w=1200"
+              src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=1200"
               alt="Contact"
               className="rounded-lg shadow-lg"
             />
