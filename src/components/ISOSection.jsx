@@ -70,7 +70,7 @@ const ISOSection = () => {
 
             <iframe
               className="w-full h-[350px]"
-              src="https://www.youtube.com/embed/VcMqPg_Sf7I"
+              src="https://youtu.be/YD9QLw5vBZQ?si=Lx5PErG97_STz0Z9"
               title="Garment Manufacturing"
               allowFullScreen
             ></iframe>
