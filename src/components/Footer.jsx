@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import {
   FaFacebookF,
   FaPinterestP,
@@ -33,16 +34,32 @@ const Footer = () => {
 
         {/* Quick Links */}
         <div className="lg:flex w-full gap-20">
+
           <div>
             <h3 className="text-indigo-700 font-semibold text-lg mb-4">
               Quick Links
             </h3>
 
             <ul className="space-y-2 text-gray-600">
-              <li className="hover:text-indigo-700 cursor-pointer">About</li>
-              <li className="hover:text-indigo-700 cursor-pointer">Products</li>
-              <li className="hover:text-indigo-700 cursor-pointer">Services</li>
-              <li className="hover:text-indigo-700 cursor-pointer">Contact</li>
+
+              <li>
+                <Link to="/about" className="hover:text-indigo-700">
+                  About
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/products" className="hover:text-indigo-700">
+                  Products
+                </Link>
+              </li>
+
+              <li>
+                <Link to="/contact" className="hover:text-indigo-700">
+                  Contact
+                </Link>
+              </li>
+
             </ul>
           </div>
 
@@ -63,10 +80,12 @@ const Footer = () => {
               <li>Sea Lead</li>
             </ul>
           </div>
+
         </div>
 
         {/* Offices */}
         <div className="lg:col-span-2">
+
           <h3 className="text-indigo-700 font-semibold text-xl mb-4">
             Our Offices
           </h3>
@@ -74,132 +93,124 @@ const Footer = () => {
           <div className="grid sm:grid-cols-2 gap-6 text-sm">
 
             {/* India */}
-            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
 
               <h4 className="font-semibold text-indigo-700">
                 Alligator Exim Pvt. Ltd. — India
               </h4>
 
-              <p className="text-gray-600 flex gap-2 mt-2 leading-relaxed">
+              <p className="text-gray-600 flex gap-2 mt-2">
                 <FaMapMarkerAlt className="mt-1 text-indigo-600" />
-                <span>
-                  Office No.109, Sawant Arcades,<br />
-                  M Road, Ambernath East,<br />
-                  Pin Code: 421501
-                </span>
+                Office No.109, Sawant Arcades,<br />
+                M Road, Ambernath East,<br />
+                Pin Code: 421501
               </p>
 
               <div className="mt-4 space-y-2 text-gray-600">
 
-                <p className="flex items-center gap-2">
+                <a href="tel:+918454801839" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaPhoneAlt className="text-indigo-600" />
                   +91 8454801839
-                </p>
+                </a>
 
-                <p className="flex items-center gap-2">
+                <a href="mailto:info@alligatorexim.com" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaEnvelope className="text-indigo-600" />
                   info@alligatorexim.com
-                </p>
+                </a>
 
-                <p className="flex items-center gap-2">
+                <a href="mailto:commercial@alligatorexim.com" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaEnvelope className="text-indigo-600" />
                   commercial@alligatorexim.com
-                </p>
+                </a>
 
-                <p className="flex items-center gap-2">
+                <a href="mailto:admin@alligatorexim.com" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaEnvelope className="text-indigo-600" />
                   admin@alligatorexim.com
-                </p>
+                </a>
 
               </div>
             </div>
 
 
             {/* Dubai */}
-            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
 
               <h4 className="font-semibold text-indigo-700">
                 Alligator Exim — Dubai
               </h4>
 
-              <p className="text-gray-600 flex gap-2 mt-2 leading-relaxed">
+              <p className="text-gray-600 flex gap-2 mt-2">
                 <FaMapMarkerAlt className="mt-1 text-indigo-600" />
-                <span>
-                  Office No.312, Al Fajer Complex,<br />
-                  Umm Hurair Road,<br />
-                  Oud Metha, Dubai
-                </span>
+                Office No.312, Al Fajer Complex,<br />
+                Umm Hurair Road,<br />
+                Oud Metha, Dubai
               </p>
 
               <div className="mt-4 space-y-2 text-gray-600">
 
-                <p className="flex items-center gap-2">
+                <a href="tel:+971585432101" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaPhoneAlt className="text-indigo-600" />
                   +971 58 5432101
-                </p>
+                </a>
 
-                <p className="flex items-center gap-2">
+                <a href="mailto:info@alligatorexim.com" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaEnvelope className="text-indigo-600" />
                   info@alligatorexim.com
-                </p>
+                </a>
 
               </div>
             </div>
 
 
             {/* USA */}
-            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
 
               <h4 className="font-semibold text-indigo-700">
                 Alligator Exim INC — USA
               </h4>
 
-              <p className="text-gray-600 flex gap-2 mt-2 leading-relaxed">
+              <p className="text-gray-600 flex gap-2 mt-2">
                 <FaMapMarkerAlt className="mt-1 text-indigo-600" />
-                <span>
-                  1135 Jackson Avenue,<br />
-                  Franklin Square,<br />
-                  NY 11010
-                </span>
+                1135 Jackson Avenue,<br />
+                Franklin Square,<br />
+                NY 11010
               </p>
 
               <div className="mt-4 space-y-2 text-gray-600">
 
-                <p className="flex items-center gap-2">
+                <a href="tel:+17189770453" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaPhoneAlt className="text-indigo-600" />
                   (718) 977-0453
-                </p>
+                </a>
 
               </div>
             </div>
 
 
             {/* Germany */}
-            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+            <div className="bg-white p-5 rounded-xl border border-gray-200 shadow-sm hover:shadow-lg transition">
 
               <h4 className="font-semibold text-indigo-700">
                 Alligator Exim GmbH — Germany
               </h4>
 
-              <p className="text-gray-600 flex gap-2 mt-2 leading-relaxed">
+              <p className="text-gray-600 flex gap-2 mt-2">
                 <FaMapMarkerAlt className="mt-1 text-indigo-600" />
-                <span>
-                  Holsteiner Ufer 4610557, <br />
-                  Berlin, Germany
-                </span>
+                Holsteiner Ufer 4610557,<br />
+                Berlin, Germany
               </p>
 
               <div className="mt-4 space-y-2 text-gray-600">
 
-                <p className="flex items-center gap-2">
+                <a href="tel:+4917647534233" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaPhoneAlt className="text-indigo-600" />
                   +49 176 47534233
-                </p>
+                </a>
 
-                <p className="flex items-center gap-2">
+                <a href="mailto:contact@alligatorpro.com" className="flex items-center gap-2 hover:text-indigo-700">
                   <FaEnvelope className="text-indigo-600" />
                   contact@alligatorpro.com
-                </p>
+                </a>
 
               </div>
             </div>
@@ -211,6 +222,7 @@ const Footer = () => {
 
       {/* Bottom Footer */}
       <div className="border-t py-6">
+
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4">
 
           <p className="text-gray-600 text-sm">
@@ -219,29 +231,33 @@ const Footer = () => {
 
           <div className="flex gap-3">
 
-            <div className="bg-blue-600 text-white p-2 rounded hover:scale-110 transition cursor-pointer">
+            <a href="#" className="bg-blue-600 text-white p-2 rounded hover:scale-110 transition">
               <FaFacebookF />
-            </div>
+            </a>
 
-            <div className="bg-red-600 text-white p-2 rounded hover:scale-110 transition cursor-pointer">
+            <a href="#" className="bg-red-600 text-white p-2 rounded hover:scale-110 transition">
               <FaPinterestP />
-            </div>
+            </a>
 
-            <div className="bg-blue-700 text-white p-2 rounded hover:scale-110 transition cursor-pointer">
+            <a href="#" className="bg-blue-700 text-white p-2 rounded hover:scale-110 transition">
               <FaLinkedinIn />
-            </div>
+            </a>
 
-            <div className="bg-red-500 text-white p-2 rounded hover:scale-110 transition cursor-pointer">
+            <a href="#" className="bg-red-500 text-white p-2 rounded hover:scale-110 transition">
               <FaYoutube />
-            </div>
+            </a>
 
-            <div className="bg-green-500 text-white p-2 rounded hover:scale-110 transition cursor-pointer">
+            <a
+              href="https://wa.me/918454801839"
+              className="bg-green-500 text-white p-2 rounded hover:scale-110 transition"
+            >
               <FaWhatsapp />
-            </div>
+            </a>
 
           </div>
 
         </div>
+
       </div>
 
     </footer>

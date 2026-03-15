@@ -75,11 +75,6 @@ const QuoteSection = () => {
 
             </div>
 
-            {/* CTA */}
-            <button className="bg-indigo-600 hover:bg-indigo-900 text-white px-6 py-3 rounded-md transition">
-              Get Instant Quote →
-            </button>
-
           </div>
 
         </div>

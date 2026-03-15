@@ -5,6 +5,7 @@ import ISOSection from '../components/ISOSection';
 import WhyChoose from '../components/WhyChoose';
 import BlogSection from '../components/Blog';
 import QuoteSection from '../components/Quote';
+import { Link } from "react-router-dom"
 
 const stats = [
   {
@@ -66,14 +67,12 @@ const Home = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
 
-            <button className="bg-indigo-700 hover:bg-indigo-900 text-white px-6 py-3 rounded-md font-medium transition">
-              Get Instant Quote →
-            </button>
-
-            <button className="border border-white text-white px-6 py-3 rounded-md hover:bg-white hover:text-black transition">
-              Contact Us →
-            </button>
-
+            <Link
+  to="/contact"
+  className="bg-indigo-700 hover:bg-indigo-900 text-white px-6 py-3 rounded-md font-medium transition inline-block"
+>
+  Contact Us →
+</Link>
           </div>
 
         </div>
